@@ -1,0 +1,192 @@
+* { }
+
+body {
+    background-image: url(cloud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: crosshair;
+}
+
+#meaf {
+    display: flex;
+    align-items: flex-end;
+    min-width: 200px;
+    min-height: 200px;
+    max-width:200px;
+    /* max-height: 200px; 
+    this still stretches vertically when the window gets smaller, why??? */
+    padding: 2px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin: 20px ;
+
+}
+
+#flexA {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: black solid 5px;
+    background: rgba(184,146,255,0.5);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+
+
+}
+
+#flexA1 {
+    display:flex;
+    font-size: 60px;
+}
+
+#flexA2 {
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+
+#flexB {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flexB1 {
+    display: flex;
+    flex: 20%;
+}
+
+#flexB2 {
+    display: flex;
+    flex: 80%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#flexB2 h1 {
+    font-size: 2rem;
+    display:flex;
+    flex-wrap: nowrap;
+    
+}
+
+#flexB2 p {
+    size:0.1em;
+
+}
+
+/* #flexC {
+    display:flex;
+
+} */
+
+#flexC1 { 
+    display:flex;
+    flex-direction: row-reverse;
+    margin: 1em
+}
+
+#flexC1 h1 {
+    display: flex;
+    order:1;
+    align-self: center;
+    margin: 1em;
+}
+
+#flexC1a {
+    display: flex;
+}
+
+#flexC1a img {
+    max-width: 200px;
+}
+
+/* flexD and actually write a cv like an adult, diana */
+
+/* flexE and have them all in a row as opposed to E1 displaying above E2 */
+
+
+button {
+    color: black;
+    border: 1px solid rgba(0, 255, 255, 0);
+    border-radius: 5px;
+    /* padding: 10px; */
+    margin: 20px;
+    justify-content: space-around;
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+    border: 1px solid rgba(0, 255, 255, 0.4);
+    /* padding: 10px; */
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* I would've liked more time to play with and show off text-shadow :'( */
+
+.fancybutton {
+
+    text-shadow:
+    #deaaff 0px 0px 5px,
+    #deaaff 0px 0px 10px,
+    #deaaff 0px 0px 15px,
+    #deaaff 0px 0px 20px,
+    #deaaff 0px 0px 30px,
+    #deaaff 0px 0px 40px,
+    #deaaff 0px 0px 50px,
+    #deaaff 0px 0px 75px;
+    border: 2px solid (0, 255, 255, 0.5);
+    border-radius: 1em;
+    padding: 1 1em;
+
+}
+
+footer {
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    /* I wanted to add a border but I couldn't figure out how to make it wrap around just the text and not fill the entire browser window
+    border: 2px solid black;
+    border-radius: 100px; */
+
+}
+
+
+/* 
+this is all left over from the first html and it's mostly useless
+
+.flexcontainer1{
+    display: flex;
+    justify-content: center;
+    border: black solid 5px;
+    background: rgba(184,146,255,0.5);
+
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#notyet {
+    cursor: no-drop;
+}
+}
+
+@media screen and (max-width: 430px) {
+
+     #flexA {
+        display: flex;
+        flex-direction: row;
+    } */
